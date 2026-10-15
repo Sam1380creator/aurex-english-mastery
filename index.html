@@ -20,8 +20,7 @@
 <div class="stats"><div class="card stat"><span class="muted small">CURRENT LEVEL</span><strong id="statLevel">B1</strong><span class="muted small" id="levelName">Intermediate</span></div><div class="card stat"><span class="muted small">TASKS COMPLETED</span><strong id="statDone">0</strong><span class="muted small">In this browser demo</span></div><div class="card stat"><span class="muted small">COMPLETION</span><strong id="statPct">0%</strong><div class="progress"><span id="progressBar"></span></div></div></div>
 <div class="nav"><button class="active" data-page="home" onclick="openPage('home',this)">Overview</button><button data-page="Writing" onclick="openPage('Writing',this)">✍️ Writing</button><button data-page="Reading" onclick="openPage('Reading',this)">📖 Reading</button><button data-page="Listening" onclick="openPage('Listening',this)">🎧 Listening</button><button data-page="Progress" onclick="openPage('Progress',this)">📈 Progress</button><button onclick="logout()" class="ghost">Sign out</button></div>
 <div id="pageContent"></div>
-</section>AUREX · English Learning Platform · Improved feedback
-Created by: Samir Obidojonov Alibekovich</div>
+</section>AUREX · AUREX · English Learning Platform · Prototype v1.2 · Improved feedback Created by: Samir Obidojonov Alibekovich </div>
 <script>
 const levels={A1:"Beginner",A2:"Elementary",B1:"Intermediate",B2:"Upper-Intermediate",C1:"Advanced",C2:"Proficiency"};
 let selectedLevel="B1",profile=null,done=JSON.parse(localStorage.getItem("aurexDone")||"[]"),currentPage="home";
